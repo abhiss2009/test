@@ -1,0 +1,39 @@
+1.Download the git repo:
+	git clone https://github.....
+2.Download the branch:
+	git clone -b branch_name https://........
+
+1. Create a local-repo:
+	git init // initialise a new repo
+	git add file/folder_name // add files or folders
+	git commit -m "status" // commit files locally
+   Connect the local-repo to git:
+	Login to github
+	Click "Create a New Repo"
+        git remote add origin https:***** // add a remote repo
+	git push -u origin master // commit to GitHub 
+
+2. Add a Tag/Release
+	git tag //check all existing tags
+	git tag tag_name //add a new tag
+	git push --tags //push all the tags
+	git status // shows the changed files
+	git diff // shows different in file
+	git add file_name //add filename
+	git commit -m "status" //commit locally
+	git push // commit to GitHub
+
+3.make change in file and check using:
+	git status
+
+4. Add the file:
+	git add file_name
+5. Commit the changes:
+	git commit -m "status"
+6. Push to github:
+	git push
+7. Removing file/folder
+	git rm file_name 'or' git rm -r folder_name
+	git commit -m "status"
+	git push
+
