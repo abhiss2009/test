@@ -28,3 +28,5 @@
 	git commit -m "status"
 	git push
 
+8. Check existing folder
+	git checkout master
