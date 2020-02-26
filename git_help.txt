@@ -1,11 +1,14 @@
 1. Create a local-repo:
 	git init // initialise a new repo
 	git add file/folder_name // add files or folders
+        git add .
 	git commit -m "status" // commit files locally
    Connect the local-repo to git:
 	Login to github
 	Click "Create a New Repo"
         git remote add origin https:***** // add a remote repo
+        git remote -v
+        git pull origin master --allow-unrelated-histories
 	git push -u origin master // commit to GitHub 
 
 2. Add a Tag/Release
